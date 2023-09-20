@@ -1,0 +1,102 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 5% 10%;
+    background: linear-gradient(to bottom,#F6EDAF, #EBD8B2);
+    color: #2B241B;
+}
+
+
+
+/* -------- EDICIÓN HEADER -------- */
+
+header {
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-size: 80pt;
+    text-shadow: 5px 3px 3px #C4AF86;
+}
+
+#sloganPuentecito {
+    font-size: 40pt;
+    font-weight: 400;
+}
+
+
+
+
+/* -------- EDICIÓN MAIN -------- */
+
+section {
+    columns: auto 20em;
+}
+
+section > article, h2, h3, p, figure {
+    margin-bottom: 5%;
+    padding: 0 2%;
+}
+
+hr {
+    border: 3px double black;
+    margin: 5% 0;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.2;
+}
+
+
+
+
+/* -------- EDICIÓN FIGURE -------- */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 10pt;
+    color: #adadad;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* -------- EDICIÓN BOTÓN INICIO -------- */
+
+div.top{
+    position:fixed;
+    bottom:50px;
+    right: 50px;
+    background-color: #EBD8B2;
+    padding: 10px;
+    border-radius: 5px;
+    opacity:90%;
+    -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0); 
+    box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0);
+}
+
+div.top > a{
+    text-decoration: none;
+    color:black;
+}
